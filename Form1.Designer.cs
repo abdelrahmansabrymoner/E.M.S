@@ -197,7 +197,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1412, 1102);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(1412, 1055);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label7);
@@ -214,7 +215,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
