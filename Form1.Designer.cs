@@ -53,7 +53,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Location = new System.Drawing.Point(-20, -9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1447, 200);
+            this.panel1.Size = new System.Drawing.Size(1447, 180);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -77,6 +77,7 @@
             this.label2.Size = new System.Drawing.Size(239, 36);
             this.label2.TabIndex = 1;
             this.label2.Text = "Manage Employee";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
