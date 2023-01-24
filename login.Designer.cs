@@ -34,6 +34,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,12 +87,22 @@
             this.textBox2.TabIndex = 4;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(386, 239);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(856, 491);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
@@ -116,6 +127,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
