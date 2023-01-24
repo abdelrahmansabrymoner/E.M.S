@@ -33,9 +33,11 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.panel1.Location = new System.Drawing.Point(-20, -9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1424, 211);
+            this.panel1.Size = new System.Drawing.Size(1429, 240);
             this.panel1.TabIndex = 0;
             // 
             // Form1
