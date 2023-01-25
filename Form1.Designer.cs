@@ -182,9 +182,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label8.Location = new System.Drawing.Point(35, 883);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(177, 28);
+            this.label8.Size = new System.Drawing.Size(180, 28);
             this.label8.TabIndex = 17;
-            this.label8.Text = "Employee Name";
+            this.label8.Text = "Employee Salary";
             // 
             // textBox6
             // 
