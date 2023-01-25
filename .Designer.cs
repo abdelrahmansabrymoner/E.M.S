@@ -274,7 +274,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 47);
             this.button1.TabIndex = 23;
-            this.button1.Text = "add";
+            this.button1.Text = " Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // Form1
