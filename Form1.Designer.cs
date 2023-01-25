@@ -88,7 +88,7 @@
             this.label3.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(41, 295);
+            this.label3.Location = new System.Drawing.Point(39, 340);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 28);
             this.label3.TabIndex = 7;
@@ -96,7 +96,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(44, 340);
+            this.textBox1.Location = new System.Drawing.Point(42, 385);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(292, 34);
             this.textBox1.TabIndex = 6;
@@ -107,7 +107,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label4.Location = new System.Drawing.Point(41, 410);
+            this.label4.Location = new System.Drawing.Point(39, 455);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(189, 28);
             this.label4.TabIndex = 9;
@@ -115,7 +115,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(44, 455);
+            this.textBox2.Location = new System.Drawing.Point(42, 500);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(292, 34);
             this.textBox2.TabIndex = 8;
@@ -126,7 +126,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(39, 525);
+            this.label5.Location = new System.Drawing.Point(37, 570);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(241, 28);
             this.label5.TabIndex = 11;
@@ -134,7 +134,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(42, 570);
+            this.textBox3.Location = new System.Drawing.Point(40, 615);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(292, 34);
             this.textBox3.TabIndex = 10;
@@ -199,7 +199,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(77, 194);
+            this.pictureBox1.Location = new System.Drawing.Point(87, 226);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
