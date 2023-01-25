@@ -253,9 +253,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(569, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(239, 36);
+            this.label2.Size = new System.Drawing.Size(267, 36);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Manage Employee";
+            this.label2.Text = "Manage Department";
             // 
             // label1
             // 
