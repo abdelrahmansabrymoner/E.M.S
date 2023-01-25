@@ -163,9 +163,9 @@
             this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label7.Location = new System.Drawing.Point(35, 776);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 28);
+            this.label7.Size = new System.Drawing.Size(110, 28);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Employee Name";
+            this.label7.Text = "Join Date";
             // 
             // textBox5
             // 
