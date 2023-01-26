@@ -34,5 +34,21 @@ namespace EmployeeMgmt1
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        { }
+
+        private void label3_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
 
