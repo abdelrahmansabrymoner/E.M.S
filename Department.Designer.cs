@@ -163,9 +163,9 @@
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(499, 166);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(179, 28);
+            this.label5.Size = new System.Drawing.Size(111, 28);
             this.label5.TabIndex = 45;
-            this.label5.Text = "Department List";
+            this.label5.Text = "Employee";
             // 
             // Department
             // 
