@@ -10,3 +10,18 @@ using System.Windows.Forms;
 
 namespace EmployeeMgmt1
 {
+    public partial class Departments : Form
+    {
+        Functions Con;
+        public Departments()
+        {
+            InitializeComponent();
+            Con = new Functions();
+            ShowDepartments();
+        }
+        private void ShowDepartments()
+        {
+            string Query = "Select * from DepartmentTb1";
+            DepList.DataSource = Con.GetData(Query);
+        }
+
