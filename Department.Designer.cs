@@ -43,6 +43,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -206,12 +207,26 @@
             this.label8.TabIndex = 48;
             this.label8.Text = "Logout";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.button3.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button3.Location = new System.Drawing.Point(127, 602);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(92, 47);
+            this.button3.TabIndex = 49;
+            this.button3.Text = "Update";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // Department
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1412, 1055);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -230,7 +245,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "Department";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Department";
+            this.Text = "f";
             this.Load += new System.EventHandler(this.Department_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -256,5 +271,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button3;
     }
 }
