@@ -103,3 +103,13 @@ namespace EmployeeMgmt1
             MessageBox.Show(Ex.Message);
         }
     }
+    private void DeleteBtn_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            if (key == 0)
+            {
+                MessageBox.Show("missing data!!!");
+            }
+            else
+            {
