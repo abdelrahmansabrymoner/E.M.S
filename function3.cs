@@ -71,3 +71,13 @@ namespace EmployeeMgmt1
         DepCb.DataSource = Con.GetData(Query);
 
         }
+    private void AddBtn_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+            {
+                MessageBox.Show("missing data!!!");
+            }
+            else
+            {
