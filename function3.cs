@@ -54,6 +54,12 @@ namespace EmployeeMgmt1
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        { private void GetDepartment()
         private void Employees_Load(object sender, EventArgs e)
         {
 
