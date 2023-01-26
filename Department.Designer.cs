@@ -217,7 +217,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(92, 47);
             this.button3.TabIndex = 49;
-            this.button3.Text = "Update";
+            this.button3.Text = "remove";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // Department
