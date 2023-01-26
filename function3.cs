@@ -20,3 +20,15 @@ namespace EmployeeMgmt1
             ShowEmp();
             GetDepartment();
         }
+        private void ShowEmp()
+        {
+            try
+            {
+                string Query = "Select * from EmployeeTb1";
+                EmployeeList.DataSource = Con.GetData(Query);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
