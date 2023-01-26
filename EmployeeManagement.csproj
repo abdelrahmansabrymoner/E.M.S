@@ -73,6 +73,7 @@
     <Compile Include="function3.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="function4.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
