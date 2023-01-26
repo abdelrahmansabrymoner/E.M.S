@@ -284,7 +284,7 @@
             this.label9.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label9.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(838, 144);
+            this.label9.Location = new System.Drawing.Point(846, 144);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(135, 28);
             this.label9.TabIndex = 51;
